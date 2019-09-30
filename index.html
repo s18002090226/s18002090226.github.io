@@ -15,8 +15,9 @@
     $("#myname").text(result.myname);
     $("#mynumber").text(result.mynumber);
   });
-
-  $.get("data1.json",function(result){
+    })
+  $("#btn").click(function(){
+  $.get("./data1.json",function(result){
     $("#myname").text(result.myname);
     $("#mynumber").text(result.mynumber);
   });
